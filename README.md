@@ -29,6 +29,4 @@ The flowgraphs are located in the radio/grc folder. It contains four files :
 * `fm_receiver.grc`: FM demodulate the incoming signal, yielding the multiplex containing audio channels L+R (Left plus Right), L-R and the RDS digital channel.
 * `mpx_demod.grc`: separates the L+R (Left plus Right), L-R and RDS channels of the MPX multiplex (needs `fm_audio_demod` and `rds_demod` to be built) ;
 * `fm_audio_demod.grc`: produces the stereo audio output ;
-* `rds_demod.grc`: produces the raw RDS bits output.
-
-
+* `rds_demod.grc`: produces the raw RDS bits output (in this file, you have to change the `prefix` variable to the complete path of `fm-rds/radio/grc`.
