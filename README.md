@@ -4,7 +4,7 @@ A stereophonic FM broadcasting receiver and RDS (Radio Data System) decoder.
 Several python script for the radio demodulation and the RDS protocol decoding are provided.
 For studying purpose, we also provide GRC flowgraphs of the radio demodulator.
 
-##Listening to a local station##
+## Listening to a local station
 
 Download and extract the archive rds.tar.gz
 
@@ -22,7 +22,7 @@ Where :
 * `card` is the kind of card you are usingn : ursp for NI/Ettus USRP, rtlsdr for dongles based on the RTL2832u ;
 * `sample_rate` is the sample rate at which you want your SDR receiver to operate.
 
-##Opening the flowgraphs in gnuradio-companion##
+## Opening the flowgraphs in gnuradio-companion
 The flowgraphs are located in the radio/grc folder. It contains four files :
 
 * `radio.grc`: the main flowgraph performing the audio and RDS demodulation (needs `fm_receiver.grc` to be built) ;
