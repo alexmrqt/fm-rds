@@ -21,7 +21,7 @@ from gnuradio import gr
 from gnuradio import qtgui
 from gnuradio import uhd
 from gnuradio.filter import firdes
-#import osmosdr
+import osmosdr
 import sip
 
 class radio(gr.top_block, Qt.QWidget):
